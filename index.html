@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="device">
+    <h2>Iltimos device width 576px da ko'ring</h2>
+  </div>
+  <div class="todo">
+    <div class="modal" id="modal">
+      <div class="form">
+        <span class="exits"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+          <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+        </svg></span>
+        <div class="form_title">Yangi topshiriq</div>
+        <input type="text" placeholder="Topshiriq sarlavhasi" id="title">
+        <textarea placeholder="Topshiriq" id="text"></textarea>
+        <input type="date" placeholder="Ohirgi muddat" id="date">
+        <select id="select">
+          <option value="null" selected>Mavzusi</option>
+          <option value="Ish">Ish</option>
+          <option value="Uy">Uy</option>
+          <option value="Shahsiy">Shahsiy</option>
+          <option value="O'qish">O'qish</option>
+        </select>
+        <div class="btn">
+          <button id="closeModal">Qo'shish</button>
+        </div>
+      </div>
+    </div>
+    <div class="container header">     
+      <div class="head">
+        <div class="title">
+          <h2>ToDolist</h2>
+        </div>
+        <div class="btns">
+          <button class="active" data-link='item1'>Bajaraman <span class="bajaraman">0</span></button>
+          <!-- <button  data-link='item2'>Bajardim <span class='bajardim'>0</span></button> -->
+        </div>
+      </div>
+      
+    </div>
+    <div class="table"> 
+      <!-- <div class="row lists item2" id="row2" style="display: none"> 
+        hello  
+      </div> -->
+    </div>
+    <div class="container">
+      <div class="add">
+        <span id="plus">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#fff" class="bi bi-plus" viewBox="0 0 16 16">
+          <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+        </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
